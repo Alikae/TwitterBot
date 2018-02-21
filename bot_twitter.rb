@@ -1,8 +1,8 @@
 require 'twitter'
-  ck = "caDkbj51uspU142OOdtHN0qXj"
-  cs = "kQeBdWrT7h6ol18pPkeLhJv35GdgpFvWjOAi2RZXlpLYhp0FLf"
-  at = "953585479160614912-6xDHgQg4MgywVwUNNbvWj0CU1w4dRbT"
-  ats = "y7bXfbUbknUQcVuO7W3dmnXB2RQhjSnYl2qLa2lnh76DB"
+  ck = ""
+  cs = ""
+  at = ""
+  ats = ""
   client = Twitter::REST::Client.new do |config|
     config.consumer_key = ck
     config.consumer_secret = cs
@@ -11,10 +11,10 @@ require 'twitter'
   end
   client.update("BORDEEEEEEEEEEEEEEEEEEEEEEEEEEL")
 def read_tweets()
-   ck = "caDkbj51uspU142OOdtHN0qXj"
-   cs = "kQeBdWrT7h6ol18pPkeLhJv35GdgpFvWjOAi2RZXlpLYhp0FLf"
-   at = "953585479160614912-6xDHgQg4MgywVwUNNbvWj0CU1w4dRbT"
-   ats = "y7bXfbUbknUQcVuO7W3dmnXB2RQhjSnYl2qLa2lnh76DB"
+   ck = ""
+   cs = ""
+   at = ""
+   ats = ""
 # quelques lignes qui enregistrent les clés d'APIs
 client = Twitter::Streaming::Client.new do |config|
     config.consumer_key        = ck
@@ -62,10 +62,10 @@ client.sample do |object|
 end
 end
 def send_tweets()
-    ck = "caDkbj51uspU142OOdtHN0qXj"
-    cs = "kQeBdWrT7h6ol18pPkeLhJv35GdgpFvWjOAi2RZXlpLYhp0FLf"
-    at = "953585479160614912-6xDHgQg4MgywVwUNNbvWj0CU1w4dRbT"
-    ats = "y7bXfbUbknUQcVuO7W3dmnXB2RQhjSnYl2qLa2lnh76DB"
+    ck = ""
+    cs = ""
+    at = ""
+    ats = ""
   client = Twitter::REST::Client.new do |config|
       config.consumer_key        = ck
         config.consumer_secret     = cs
@@ -95,10 +95,10 @@ def tweet_alea()
 end
 
 def copy_tweet()
-  ck = "caDkbj51uspU142OOdtHN0qXj"
-   cs = "kQeBdWrT7h6ol18pPkeLhJv35GdgpFvWjOAi2RZXlpLYhp0FLf"
-   at = "953585479160614912-6xDHgQg4MgywVwUNNbvWj0CU1w4dRbT"
-   ats = "y7bXfbUbknUQcVuO7W3dmnXB2RQhjSnYl2qLa2lnh76DB"
+  ck = ""
+   cs = ""
+   at = ""
+   ats = ""
   client = Twitter::REST::Client.new do |config|
     config.consumer_key = ck
     config.consumer_secret = cs
